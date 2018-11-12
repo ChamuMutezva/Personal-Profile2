@@ -1,0 +1,74 @@
+body {
+    background-color: #60b7da;
+}
+
+header {
+    left: 0;
+    top: 0;
+    color: white;
+    width: 100%;
+    /* text-align: center; */
+    position: fixed;
+    background-color: #201b3c;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    font-size: 150%;
+}
+
+main {
+    padding: 150px 0;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    width: 95%;
+}
+
+#works {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#fourthProject img {
+    width: 88%;
+}
+
+footer figure img {
+    display: block;
+    width: 40%;
+
+    margin: auto;
+    border-radius: 80%;
+}
+
+footer figure ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+h5 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #works {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    footer figure img {
+        width: 60%;
+        border-radius: 80%;
+    }
+}
