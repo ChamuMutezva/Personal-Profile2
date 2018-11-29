@@ -41,6 +41,10 @@ img {
     width: 60%;
 }
 
+#personalInfo figure figcaption{
+    padding-top: 5%;
+}
+
 #works {
     display: grid;
     grid-template-columns: 1fr 1fr;
