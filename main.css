@@ -1,5 +1,5 @@
 body {
-    background-color: #60b7da;
+    background-color: #8f964d;
    overflow: visible;
 }
 
@@ -10,7 +10,7 @@ header {
     width: 100%;
     /* text-align: center; */
     position: fixed;
-    background-color: #418a8e;
+    background-color: #868368;
     z-index: 10;
 }
 
