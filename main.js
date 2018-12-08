@@ -19,3 +19,14 @@ function hideScrolls() {
         document.body.style.overflow = "hidden";
     }
 }
+
+//register service worker
+if("serviceWorker" in navigator){
+   // console.log("service worker supported");
+   window.addEventListener("load", () => {
+       navigator.serviceWorker
+       .register("swRegister.js")
+       .then(reg => console.log("sevice worker registered"))
+       .catch(err => console.log(`service worker: error: ${err}`));
+   });
+}
