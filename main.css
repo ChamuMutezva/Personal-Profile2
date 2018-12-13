@@ -15,7 +15,7 @@ header {
     width: 100%;
     /* text-align: center; */
     position: fixed;
-    background-color: #868368;
+    background-color: #263038;
     z-index: 10;
 }
 
@@ -26,10 +26,16 @@ nav ul {
 
     text-align: center;
 }
-
+header ul a{
+    color: white;
+}
 li {
     list-style: none;
     font-size: 150%;
+}
+
+a.fa.fa-bars {
+    color: white;
 }
 
 main {
@@ -84,8 +90,9 @@ h5 {
     height: 500px;
     top: 0;
     left: 0;
-    background-color: aquamarine;
-    z-index: 10;    
+    background-color:#263038;
+    z-index: 10; 
+    color: white;   
 }
 
 aside{
