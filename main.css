@@ -37,7 +37,9 @@ li {
 a.fa.fa-bars {
     color: white;
 }
-
+ a:visited{
+    /* color: maroon;*/
+ }
 main {
     padding: 150px 0;
     text-align: center;
