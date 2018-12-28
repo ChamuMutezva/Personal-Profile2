@@ -12,6 +12,7 @@ const cacheAssets = [
     "images/Pixelimage.jpg",
     "images/webDev.png",
     "images/webDev2.jpg",
+    "manifest.json",
 ]
 //call install event
 self.addEventListener("install", e => {
