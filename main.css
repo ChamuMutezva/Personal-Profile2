@@ -119,6 +119,12 @@ p#extraInfo{
         display: grid;
         grid-template-columns: 1fr;
     }
+    
+    ul li {
+        margin-right: 25%;
+        /* text-decoration: none; */
+    }
+    
 
     #personalInfo img{
         width: 95%;
