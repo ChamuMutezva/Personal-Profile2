@@ -17,5 +17,5 @@
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "cornflowerblue",
-    "theme_color": "cornflowerblue"
+    "theme_color": "#34495E"
 }
