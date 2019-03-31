@@ -30,3 +30,4 @@ if ("serviceWorker" in navigator) {
             .catch(err => console.log(`service worker: error: ${err}`));
     });
 }
+

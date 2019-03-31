@@ -70,14 +70,22 @@ img {
     grid-template-columns: 1fr 1fr;
 }
 
+#works img {
+    width: 40vh;
+    height: 20vh;
+}
+
+#works img:hover{
+    
+}
+/*
 #fourthProject img {
     width: 88%;
-}
+}*/
 
 footer figure img {
     display: block;
-    width: 30%;
-
+    width: 30vh;
     margin: auto;
     border-radius: 80%;
 }
