@@ -39,6 +39,7 @@ li {
 
 a.fa.fa-bars {
     color: white;
+    transform: rotate(180deg);
 }
 
 a:visited {
