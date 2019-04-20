@@ -2,14 +2,15 @@ let display = document.querySelector(".fa-bars");
 let modal = document.getElementById("modal");
 
 display.addEventListener("click", function () {
-    display.style.transform = "rotate(90deg)";
     modal.classList.toggle("show");
+    display.style.transform = "rotate(90deg)";    
     hideScrolls();
     console.log("modal open");
 })
 modal.firstElementChild.addEventListener("click", function () {
-    //display.style.transform = "rotate(180deg)";
     modal.classList.toggle("show");
+  display.style.transform = "rotate(90deg)";
+   
     hideScrolls();
     console.log("modal closed");
 })

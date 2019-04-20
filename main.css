@@ -42,8 +42,8 @@ a.fa.fa-bars {
     transform: rotate(180deg);
 }
 
-a:visited {
-    /* color: maroon;*/
+.fa-bars:focus {
+   //transform: rotate(90deg);
 }
 
 main {
@@ -60,6 +60,10 @@ img {
 
 #personalInfo img {
     width: 60%;
+}
+
+#personalInfo img:hover {
+    /*transform: rotate(90deg);*/
 }
 
 #personalInfo figure figcaption {
@@ -120,7 +124,7 @@ aside {
 }
 
 .show {
-    display: none;
+    display: none;    
 }
 
 p#extraInfo {
