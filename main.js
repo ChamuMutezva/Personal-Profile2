@@ -1,16 +1,24 @@
 let display = document.querySelector(".fa-bars");
 let modal = document.getElementById("modal");
+let modalBar = document.querySelector("#modal .fa-bars");
+console.log(modalBar);
+/*
+let bar = display.forEach(item => item.addEventListener("click", function () {
+    modal.classList.toggle("show");    
+    item.style.transform = "rotate(90deg)";
+}) );
+*/
 
 display.addEventListener("click", function () {
     modal.classList.toggle("show");
-    display.style.transform = "rotate(90deg)";    
+modalBar.style.transform = "rotate(90deg)";  
+   
     hideScrolls();
     console.log("modal open");
 })
 modal.firstElementChild.addEventListener("click", function () {
     modal.classList.toggle("show");
-  display.style.transform = "rotate(90deg)";
-   
+  display.style.transform = "rotate(0deg)";   
     hideScrolls();
     console.log("modal closed");
 })

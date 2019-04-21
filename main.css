@@ -43,7 +43,7 @@ a.fa.fa-bars {
 }
 
 .fa-bars:focus {
-   //transform: rotate(90deg);
+  /* transform: rotate(90deg);*/
 }
 
 main {
@@ -137,6 +137,10 @@ h1,
 h3 {
     font-family: "Open sans", sans-serif;
     font-weight: 700;
+}
+
+details[open]{
+    
 }
 
 @media only screen and (max-width: 600px) {
