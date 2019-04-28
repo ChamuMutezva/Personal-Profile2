@@ -3,9 +3,19 @@ let modal = document.getElementById("modal");
 let modalBar = document.querySelector("#modal .fa-bars");
 console.log(modalBar);
 /*
-let bar = display.forEach(item => item.addEventListener("click", function () {
+let displayBars = document.querySelectorAll(".fa-bars");
+console.log(displayBars);
+let bar = displayBars.forEach(item => item.addEventListener("click", function () {
+    console.log(item);
+    if (modal.classList.contains("show")) {
+        item.style.transform = "rotate(0deg)";
+        console.log("class show exist");
+    } else {
+        console.log("class show does not exist at all");
+        item.style.transform = "rotate(90deg)";
+    }   
     modal.classList.toggle("show");    
-    item.style.transform = "rotate(90deg)";
+    //item.style.transform = "rotate(90deg)";
 }) );
 */
 
