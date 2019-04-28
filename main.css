@@ -76,10 +76,25 @@ img {
 }
 
 #works img {
-    width: 40vh;
+    max-width: 40vh;
     height: 20vh;
 }
 
+footer p {
+    text-align: center;
+}
+
+footer p strong{
+    color: red;
+}
+em {
+    color: darkslategray;
+}
+figcaption {
+    margin: auto;
+    max-width: 40vh;
+    text-align: center;
+}
 #works img:hover{
     
 }
